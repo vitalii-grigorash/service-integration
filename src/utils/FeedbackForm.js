@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://api.oootelecomservice.ru';
+export const BASE_URL = 'https://api.s-integration.ru';
 
 export const sendForm = (name, number, comment) => fetch(`${BASE_URL}/feedbackform`, {
   method: 'POST',

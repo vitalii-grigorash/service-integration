@@ -3,6 +3,7 @@
     background-image: url('../../images/request-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
     width: 100%;
     height: 1000px;
     margin: 220px 0 0;
@@ -38,4 +39,49 @@
     color: #FFFFFF;
     margin: 32px auto 0 0;
     width: 820px;
+}
+@media screen and (max-width: 990px) {
+    .request__description {
+        font-size: 18px;
+        line-height: 29px;
+        width: 506px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .request {
+        height: 719px;
+        margin: 124px 0 0;
+    }
+    .request__feedback-container {
+        margin: 64px auto 0;
+    }
+    .request__heading {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .request__border {
+        top: -7px;
+        right: -5px;
+        width: 106px;
+        height: 40px;
+    }
+    .request__description {
+        font-size: 18px;
+        line-height: 29px;
+        margin: 18px auto 0 0;
+        width: 506px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .request {
+        height: 750px;
+        margin: 61px 0 0;
+        background-position-x: -900px;
+    }
+    .request__feedback-container {
+        margin: 53px auto 0;
+    }
+    .request__description {
+        width: 259px;
+    }
 }

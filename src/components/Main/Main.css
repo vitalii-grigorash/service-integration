@@ -9,6 +9,7 @@
     background-image: url('../../images/main-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
 }
 .main__info-container {
     display: flex;
@@ -72,4 +73,85 @@
 }
 .main__button:hover {
     background: #1633c2; 
+}
+@media screen and (max-width: 1500px) {
+    .main__info-container {
+        margin: 245px auto 0 100px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .main__top-container {
+        height: 331px;
+    }
+    .main__info-container {
+        margin: 75px auto 0 30px;
+        max-width: 385px;
+    }
+    .main__heading {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .main__description-top-container {
+        margin: 12px auto 0 0;
+    }
+    .main__description-top {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .main__description-img {
+        width: 200px;
+        height: 45px;
+        top: -11px;
+        right: -11px;
+    }
+    .main__description {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .main__button {
+        width: 175px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 29px auto 0 0;
+    }
+}
+@media screen and (max-width: 540px) {
+    .main__top-container {
+        height: 568px;
+    }
+    .main__info-container {
+        margin: 124px auto 0 30px;
+        max-width: 256px;
+    }
+    .main__description-top {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .main__description {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .main__description-top-container {
+        margin: 17px auto 0 0;
+    }
+    .main__description-img {
+        width: 180px;
+        height: 40px;
+        top: 23px;
+        right: 83px;
+    }
+    .main__button {
+        margin: 30px auto 0 0;
+    }
+}
+@media screen and (max-width: 470px) {
+    .main__top-container {
+        background-position-x: -600px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .main__top-container {
+        background-position-x: -650px;
+    }
 }

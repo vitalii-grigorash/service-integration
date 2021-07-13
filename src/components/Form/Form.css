@@ -80,3 +80,55 @@
 .form__button:hover {
     background: #3ba37d;
 }
+@media screen and (max-width: 900px) {
+    .form {
+        width: 508px;
+        margin: 26px 0 0 0;
+    }
+    .form__input {
+        font-size: 16px;
+        line-height: 25px;
+        height: 59px;
+    }
+    .form__input_error {
+        font-size: 10px;
+        line-height: 14px;
+        height: 24px;
+    }
+    .form__textarea {
+        font-size: 16px;
+        line-height: 25px;
+        height: 126px;
+    }
+    .form__agree-container {
+        margin: 15px auto 0 0;
+    }
+    .form__agree-text {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .form__button {
+        width: 175px;
+        height: 42px;
+        margin: 36px auto 0 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .form {
+        width: 257px;
+    }
+    .form__input {
+        height: 45px;
+    }
+    .form__input_error {
+        font-size: 8px;
+        line-height: 12px;
+        height: 26px;
+        margin: 2px auto 0 0;
+    }
+    .form__textarea {
+        height: 116px;
+    }
+}
