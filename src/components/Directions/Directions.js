@@ -57,7 +57,7 @@ function Directions (props) {
 
                     <div className="directions__services-item-container">
                         <img className="directions__services-item-icon" src={paperQuestionIcon} alt="Иконка" />
-                        <p className="directions__services-item-text">Решение спорных вопросов, возникающих при размещении и эксплуатация сервисного оборудования, защищая интересы каждой из сторон.</p>
+                        <p className="directions__services-item-text">Решение спорных вопросов, возникающих при размещении и эксплуатации сервисного оборудования, защищая интересы каждой из сторон.</p>
                     </div>
 
                 </div>
