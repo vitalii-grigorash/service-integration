@@ -1,6 +1,6 @@
 import React from "react";
-import baseStation from "../../images/base-station.jpg";
-import build from "../../images/build.jpg";
+import baseStation from "../../images/base-station.webp";
+import build from "../../images/build.webp";
 import arrow from "../../images/arrow.svg";
 import textAboutUs from "../../images/text-about-us.svg";
 

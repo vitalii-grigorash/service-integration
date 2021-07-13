@@ -25,7 +25,7 @@ function Advantages (props) {
                 <img className="advantages__heading-border" src={textBorderBottom} alt="Рамка" />
                 Преимущества работы с нами
             </h2>
-            <p className="advantages__description">Мы стараемся, чтобы работы с нашей компании приносила максимум пользы для наших партнеров</p>
+            <p className="advantages__description">Мы стараемся, чтобы работа с нашей компанией приносила максимум пользы для наших партнеров</p>
 
             <div className="advantages__info-container">
 

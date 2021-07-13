@@ -30,7 +30,7 @@ function Directions (props) {
                 Основные направления
             </h2>
             <p className="directions__heading">деятельности компании</p>
-            <p className="directions__description">Наши деятельность осуществляется по основным четырем направлениям</p>
+            <p className="directions__description">Наша деятельность осуществляется по основным четырем направлениям</p>
 
             <div className="directions__services-container">
 
