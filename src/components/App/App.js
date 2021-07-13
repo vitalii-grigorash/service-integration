@@ -54,7 +54,6 @@ function App () {
 
   function feedbackFormSend (name, number, comment) {
     setSubmitButtonText('Отправка...')
-    console.log(name, number, comment);
     FeedbackForm.sendForm(name, number, comment)
     .then(() => {})
     .catch((err) => {
