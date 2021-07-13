@@ -1,0 +1,52 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.header__container {
+    display: flex;
+    margin: auto 50px;
+    height: 129px;
+    border-bottom: 2px solid #FFFFFF;
+}
+.header__links-container {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: auto auto auto 0;
+}
+.header__link {
+    margin: 0 17px 0 0;
+    cursor: pointer;
+}
+.header__link:hover {
+    opacity: .6;
+}
+.header__link:last-of-type {
+    margin-right: 0;
+}
+.header__link_main {
+    font-weight: bold;
+}
+.header__button {
+    width: 229px;
+    height: 57px;
+    margin: auto 0 auto auto;
+    background: #1F43FF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.header__button:hover {
+    background: #1633c2; 
+}

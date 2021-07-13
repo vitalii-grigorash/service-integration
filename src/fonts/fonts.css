@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+@font-face {
+    font-family: 'Verdana';
+    font-style: italic;
+    font-weight: bold;
+    font-display: swap;
+    src: url("Verdana-BoldItalic.woff") format("woff");
+}
+@font-face {
+    font-family: 'Verdana';
+    font-style: italic;
+    font-weight: normal;
+    font-display: swap;
+    src: url("Verdana-Italic.woff") format("woff");
+}
+@font-face {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("Verdana.woff") format("woff");
+}
+@font-face {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("Verdana-Bold.woff") format("woff");
+}

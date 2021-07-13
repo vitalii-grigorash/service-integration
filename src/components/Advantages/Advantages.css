@@ -1,0 +1,69 @@
+.advantages {
+    background: #2D2D2D;   
+    display: flex;
+    flex-direction: column;
+}
+.advantages__heading {
+    position: relative;
+    margin: 128px auto 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 125.19%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.advantages__heading-border {
+    position: absolute;
+    top: -6px;
+    left: -18px;
+}
+.advantages__description {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 159.19%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 25px auto 0;
+    max-width: 827px;
+}
+.advantages__info-container {
+    width: auto;
+    margin: 74px auto 0;
+    display: flex;
+    flex-direction: column;
+}
+.advantages__info-top-container {
+    display: flex;
+}
+.advantages__info-bottom-container {
+    display: flex;
+    margin: 62px auto 0;
+}
+.advantages__info-item-container {
+    display: flex;
+    margin-right: 60px;
+    width: 532px;
+    align-items: center;
+}
+.advantages__info-item-container:last-of-type {
+    margin-right: 0;
+}
+.advantages__info-item-icon {
+    width: 65px;
+    height: 60px;
+    margin: 0 30px 0 0;
+}
+.advantages__info-item-text {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 159.19%;
+    color: #FFFFFF;
+    margin: auto auto auto 0;
+    max-width: 402px;
+}
