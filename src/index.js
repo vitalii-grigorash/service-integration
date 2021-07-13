@@ -1,14 +1,11 @@
 import React from 'react';
 import { hydrate, render } from "react-dom";
-import { BrowserRouter } from 'react-router-dom';
 import './index.css';
-import App from './components/App/App';
+import App from '../src/components/App/App';
 
 const APP = (
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <App />
   </React.StrictMode>
 );
 
